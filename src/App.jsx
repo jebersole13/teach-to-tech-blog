@@ -1,7 +1,11 @@
 import NavBar from "./assets/NavBar"
 
 function App() {
-  <div className="App"><NavBar/></div>
+  <div className="App">
+    
+    <NavBar/>
+  
+  </div>
   
   
 }
