@@ -1,0 +1,10 @@
+
+function blog() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default blog
