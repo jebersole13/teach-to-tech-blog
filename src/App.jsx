@@ -1,11 +1,14 @@
-import NavBar from "./assets/NavBar"
+import Navigation from "./Navigation"
 
 function App() {
-  <div className="App">
-    
-    <NavBar/>
+  <><div className="App">
+
+
+ <Navigation/>
   
   </div>
+  </>
+  
   
   
 }
