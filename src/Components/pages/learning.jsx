@@ -1,5 +1,5 @@
 
-function learning() {
+function Learning() {
   return (
     <div>
       
@@ -7,4 +7,4 @@ function learning() {
   )
 }
 
-export default learning
+export default Learning

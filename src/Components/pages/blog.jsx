@@ -1,5 +1,5 @@
 
-function blog() {
+function Blog() {
   return (
     <div>
       
@@ -7,4 +7,4 @@ function blog() {
   )
 }
 
-export default blog
+export default Blog
