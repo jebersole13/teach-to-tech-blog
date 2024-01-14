@@ -5,12 +5,17 @@ import Blog from './Components/pages/blog';
 import Learning from './Components/pages/learning';
 import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 const App =()=> {
 
-      const current_theme= localStorage.getItem('current_time');
-const [theme, setTheme] = useState('light');
+     const current_theme = localStorage.getItem( 'current_theme')
 
+      
+const [theme, setTheme] = useState( current_theme ? current_theme : 'light');
+
+useEffect(()=> {
+      localStorage.setItem('current_theme', theme);
+},[theme])
   return (
     <div className={`App ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme}/>
