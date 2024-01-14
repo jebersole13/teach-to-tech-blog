@@ -22,7 +22,7 @@ const toggle_mode =()=>{
 
     <li><a href="#about">About</a></li>
       <li><a href="#blog">Blog</a></li>
-        <li><a href="learning">Learning</a></li>
+        <li><a href="#learning">Learning</a></li>
         <li><a href="#podcast">Podcast</a></li>
 </ul>
 

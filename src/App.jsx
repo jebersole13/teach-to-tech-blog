@@ -20,7 +20,8 @@ const [theme, setTheme] = useState('light');
 <Blog className={`App ${theme}`}/>
       </section>
             <section id='learning'>
-<Learning className={`App ${theme}`}/>
+<Learning 
+ className={`App ${theme}`}/>
       </section>
             <section id='podcast'>
 <Podcast className={`App ${theme}`}/>
