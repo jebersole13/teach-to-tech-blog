@@ -1,21 +1,27 @@
-import Navbar from "./Components/Navbar"
-import About from "./Components/pages/About";
+import { createContext, useState } from "react";
+import ReactSwitch from "react-switch";
+import Navbar from "./Components/Navbar";
+import About from "./Components/pages/about"
 
+export const ThemeContext = createContext(null);
 function App() {
+   const [theme, setTheme] = useState("dark");
 
-  return(
-<div className="App">
-<Navbar/>
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+  return (
+      <ThemeContext.Provider value={{ theme, toggleTheme }}>
+        
+    <div className='App'>
+      <Navbar/> <div className="switch">   <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /></div>
+    </div>
 <About/>
-
-</div>
-
+      
+     
+    </ThemeContext.Provider>
   )
-
-  
-  
-  
-  
 }
 
 export default App
+

@@ -1,8 +1,8 @@
 
 function Learning() {
   return (
-    <div>
-      
+    <div >
+      <h1>What are we learning today?</h1>
     </div>
   )
 }
