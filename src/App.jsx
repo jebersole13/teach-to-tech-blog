@@ -1,7 +1,7 @@
 import './index.css'
 import Navbar from './Components/Navbar'
-import About from './Components/pages/About';
-import Blog from './Components/pages/Blog';
+import About from './Components/pages/about';
+import Blog from './Components/pages/blog';
 import Learning from './Components/pages/learning';
 import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
