@@ -13,7 +13,7 @@ scroll-behavior: smooth;
   min-height: 100vh;
 background: #ced8ff;
 color: black;
-transition: 0.5s;
+transition: 1s;
 }
 
 .App.dark{
@@ -21,7 +21,7 @@ transition: 0.5s;
       min-height: 100vh;
       color: aliceblue;
       background: darkblue;
-      transition: 0.5s;
+      transition: 1s;
 
 }
 
