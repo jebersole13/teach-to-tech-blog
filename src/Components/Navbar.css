@@ -9,6 +9,11 @@
 padding: 15px 7% ;
 
 }
+
+.dark .navbar{
+  background-color: #242424;
+  color: #fff;
+}
 .logo{
   width:300px;
   cursor: pointer;
@@ -43,6 +48,10 @@ li{
 
 }
 
+.dark .search-box{
+  background-color: #fff;
+
+}
 .search-box input{
  padding: 6px;
  background: transparent;
@@ -58,7 +67,9 @@ li{
 .search-box input::placeholder{
   color: #fff;
 }
-
+.dark .search-box input::placeholder{
+  color: #242424;
+}
 .search-box img{
   width:20px;
 cursor: pointer;
