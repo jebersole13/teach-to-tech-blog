@@ -1,63 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+
+  width:100vw;
+  min-height: 100vh;
+background: #ced8ff;
+color: black;
+transition: 0.5s;
 }
 
-.App {
-  font-family: "Ubuntu", sans-serif;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.App.dark{
+    width: 100vw;
+      min-height: 100vh;
+      color: aliceblue;
+      background: darkblue;
+      transition: 0.5s;
+
 }
 
-#light {
-  background-color: #f3ebf6;
-}
-
-#dark {
-  background-color: #46045e;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body .main {
-  width: 400px;
-  height: 400px;
-
-  border-radius: 1.5em;
-  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
-}
-
-#light .main {
-  background-color: #fff;
-}
-
-#dark .main {
-  background-color: #38004c;
-}
-.switch label {
-  margin: 10px;
-}
-
-#light .switch label {
-  color: black;
-}
-
-#dark .switch label {
-  color: white;
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 20rem;
 }
