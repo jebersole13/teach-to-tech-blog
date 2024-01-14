@@ -1,28 +1,14 @@
-import Navigation from './Components/Navigation';
-import About from './Components/pages/About';
-import Blog from './Components'
-
+import Navbar from "./Components/Navbar"
+import About from "./Components/pages/About";
 
 function App() {
 
   return(
-  <div className="App">
+<div className="App">
+<Navbar/>
+<About/>
 
-    <Navigation/>
-    <section>
-  
- <About/>
-  
-    </section>
-    <section>
-<Blog/>
-    </section>
-    <section>
-   
-    </section>
-
-
-  </div>
+</div>
 
   )
 
