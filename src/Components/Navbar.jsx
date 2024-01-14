@@ -15,15 +15,15 @@ const toggle_mode =()=>{
 
   return (
     <div className='navbar'>
-
-      <img src={theme =='light' ? logo_light: logo_dark} alt="lightlo" className='logo' />
+<a href="/">  <img src={theme =='light' ? logo_light: logo_dark} alt="lightlo" className='logo'  /></a>
+    
 <ul>
 
-  <li>Home</li>
-    <li>About</li>
-      <li>Blog</li>
-        <li>Learning</li>
-        <li>Podcast</li>
+
+    <li><a href="#about">About</a></li>
+      <li><a href="#blog">Blog</a></li>
+        <li><a href="learning">Learning</a></li>
+        <li><a href="#podcast">Podcast</a></li>
 </ul>
 
 <div className='search-box'>

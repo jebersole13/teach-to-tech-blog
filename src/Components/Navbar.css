@@ -58,10 +58,12 @@ li{
  border: 0;
  outline: 0;
  color: #fff; 
-
  font-size: 18px;
  max-width: 200px;
+}
 
+.dark .search-box input{
+  color: #242424;
 }
 
 .search-box input::placeholder{
