@@ -1,0 +1,9 @@
+
+.footer {
+  background-color: rgb(175, 130, 71);
+  height: auto;
+}
+
+.dark .footer{
+  background-color: brown;
+}
