@@ -7,6 +7,8 @@ import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
 import { useState } from 'react';
 const App =()=> {
+
+      const current_theme= localStorage.getItem('current_time');
 const [theme, setTheme] = useState('light');
 
   return (
