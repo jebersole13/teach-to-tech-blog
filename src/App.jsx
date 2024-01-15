@@ -6,7 +6,7 @@ import Learning from './Components/pages/learning';
 import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
 import logo_light from '.Components/assets/logo-dark.png';
-import logo_dark from '.Components/assets/logo-light.png'
+import logo_dark from '.Components/assets/logo-light.png';
 
 import toggle_light from '.Components/assets/night.png';
 import toggle_dark from '.Component/assets/day.png';
