@@ -32,3 +32,15 @@ section {
   padding: 10rem 9% 20rem;
 }
 
+.logo {
+  width: 300px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.toggle-icon {
+
+    width: 50px;
+    cursor: pointer;
+  float: right;
+  margin-right: 100px;
+  }

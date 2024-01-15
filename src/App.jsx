@@ -1,16 +1,17 @@
 import './index.css'
 import Navbar from './Components/Navbar'
-import ToggleButton from './Components/ToggleButton';
 import About from './Components/pages/about';
 import Blog from './Components/pages/blog';
 import Learning from './Components/pages/learning';
 import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
+import Header from './Components/Header';
 import { useEffect, useState } from 'react';
 const App =()=> {
-    
+
      const current_theme = localStorage.getItem( 'current_theme')
 
+      
 const [theme, setTheme] = useState( current_theme ? current_theme : 'light');
 
 useEffect(()=> {
@@ -18,10 +19,8 @@ useEffect(()=> {
 },[theme])
   return (
     <div className={`App ${theme}`}>
-        
-      <Navbar theme={theme} setTheme={setTheme}/>
-      <ToggleButton/>
-
+      <Navbar />
+<Header theme={theme} setTheme={setTheme}/>
       <section id='about'>
 <About className={`App ${theme}`}/>
       </section>
