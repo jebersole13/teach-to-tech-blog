@@ -1,7 +1,7 @@
-import logo_light from '..Components/assets/logo-dark.png';
-import logo_dark from '..Components/assets/logo-light.png';
-import toggle_light from '..Components/assets/night.png';
-import toggle_dark from '..Components/assets/day.png';
+import logo_light from './Components/assets/logo-dark.png';
+import logo_dark from './Components/assets/logo-light.png';
+import toggle_light from './Components/assets/night.png';
+import toggle_dark from './Components/assets/day.png';
 import './ToggleButton.css';
 const ToggleButton=({theme, setTheme})=>{
     const toggle_mode =()=>{
