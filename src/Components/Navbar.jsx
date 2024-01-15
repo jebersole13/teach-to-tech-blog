@@ -1,21 +1,21 @@
 
 import './Navbar.css'
-import logo_light from './assets/logo-dark.png';
-import logo_dark from './assets/logo-light.png'
-import search_icon_dark from './assets/search-b.png'
-import search_icon_light from './assets/search-w.png';
-import toggle_light from './assets/night.png';
-import toggle_dark from './assets/day.png';
+import { motion } from "framer-motion"
 
-// eslint-disable-next-line react/prop-types
-const Navbar= ({theme, setTheme}) =>{
-const toggle_mode =()=>{
-  theme == 'light' ?  setTheme('dark') : setTheme('light')
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: "-100%" },
 }
 
+// eslint-disable-next-line react/prop-types
+const Navbar= () =>{
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <div className='navbar'>
-<a href="/">  <img src={theme =='light' ? logo_light: logo_dark} alt="lightlo" className='logo'  /></a>
+    <motion.div className='navbar' 
+    animate={isOpen ? "open" : "closed"}
+    variants={variants}>
+ <Toggle onClick={() => setIsOpen(isOpen => !isOpen)} />
     
 <ul>
 
@@ -26,13 +26,9 @@ const toggle_mode =()=>{
         <li><a href="#podcast">Podcast</a></li>
 </ul>
 
-<div className='search-box'>
-  <input type="text" placeholder='Search' />
-  <img src={theme ==='light' ? search_icon_light: search_icon_dark} alt="" />
-</div>
 
-<img onClick={()=>{toggle_mode()}} src={theme ==='light' ? toggle_light: toggle_dark} alt="" className='toggle-icon' />
-    </div>
+
+   </motion.div>
   )
 }
 

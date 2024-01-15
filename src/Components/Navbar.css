@@ -14,10 +14,6 @@ padding: 15px 7% ;
   background-color: #242424;
   color: #fff;
 }
-.logo{
-  width:300px;
-  cursor: pointer;
-}
 
 ul{
   flex:1;
@@ -32,47 +28,3 @@ li{
   cursor: pointer;
 }
 
-.toggle-icon{
-
-  width:50px;
-  cursor: pointer;
-  margin-left: 40px;
-}
-
-.search-box{
-  display: flex;
-  align-items: center;
-  background: #242424;
-  padding: 10px 20px;
-  border-radius: 50px;
-
-}
-
-.dark .search-box{
-  background-color: #fff;
-
-}
-.search-box input{
- padding: 6px;
- background: transparent;
- border: 0;
- outline: 0;
- color: #fff; 
- font-size: 18px;
- max-width: 200px;
-}
-
-.dark .search-box input{
-  color: #242424;
-}
-
-.search-box input::placeholder{
-  color: #fff;
-}
-.dark .search-box input::placeholder{
-  color: #242424;
-}
-.search-box img{
-  width:20px;
-cursor: pointer;
-}
