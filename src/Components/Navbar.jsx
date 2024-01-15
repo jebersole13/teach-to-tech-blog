@@ -7,7 +7,6 @@ const variants = {
   closed: { opacity: 0, x: "-100%" },
 }
 
-// eslint-disable-next-line react/prop-types
 const Navbar= () =>{
   const [isOpen, setIsOpen] = useState(false)
 
