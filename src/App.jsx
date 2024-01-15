@@ -11,7 +11,7 @@ import logo_dark from './assets/logo-light.png'
 import toggle_light from './assets/night.png';
 import toggle_dark from './assets/day.png';
 import { useEffect, useState } from 'react';
-const App =({theme, setTheme})=> {
+const App =()=> {
       const toggle_mode =()=>{
             theme == 'light' ?  setTheme('dark') : setTheme('light')
           }
