@@ -19,3 +19,5 @@ const ToggleButton=({theme, setTheme})=>{
         </div>
     )
 }
+
+export default ToggleButton
