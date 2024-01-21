@@ -1,6 +1,6 @@
 import './index.css'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
-import Navbar from './Components/Navbar'
+
 import About from './Components/pages/about';
 import Blog from './Components/pages/blog';
 import Learning from './Components/pages/learning';
@@ -21,8 +21,10 @@ useEffect(()=> {
   return (
     <div className={`App ${theme}`}>
       
-      <Router><Navbar />
+      <Router>
+
 <Header theme={theme} setTheme={setTheme}/>
+
   <Routes>
      <Route path="/" element={<Blog className={`App ${theme}`}/>}/>
 

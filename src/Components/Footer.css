@@ -2,7 +2,10 @@
 .footer {
   position: sticky;
   background-color: rgb(175, 130, 71);
+  object-fit: contain;
+  width: 100%;
   height: auto;
+
 }
 
 .dark .footer{

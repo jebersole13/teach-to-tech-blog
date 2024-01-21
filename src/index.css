@@ -1,10 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: sans-serif;
 scroll-behavior: smooth;
-
 
 }
 
@@ -14,10 +17,10 @@ scroll-behavior: smooth;
   min-height: 100vh;
 background: #ced8ff;
 color: black;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .App.dark{
