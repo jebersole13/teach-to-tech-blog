@@ -24,7 +24,7 @@ useEffect(()=> {
       <Router><Navbar />
 <Header theme={theme} setTheme={setTheme}/>
   <Routes>
-     <Route path="/" element={<Blog className={`App ${theme}`}/>}/>
+     <Route path="/Blog" element={<Blog className={`App ${theme}`}/>}/>
 
      <Route path ='/About'element={<About className={`App ${theme}`}/>}/>
 
