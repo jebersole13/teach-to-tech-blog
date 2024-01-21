@@ -2,9 +2,9 @@ import './index.css'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import Navbar from './Components/Navbar'
 import About from './Components/pages/about';
-import Blog from './Components/pages/Blog';
+import Blog from './Components/pages/blog';
 import Learning from './Components/pages/learning';
-import Podcast from './Components/pages/Podcast';
+import Podcast from './Components/pages/podcast';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import { useEffect, useState } from 'react';
@@ -24,7 +24,7 @@ useEffect(()=> {
       <Router><Navbar />
 <Header theme={theme} setTheme={setTheme}/>
   <Routes>
-     <Route path="/Blog" element={<Blog className={`App ${theme}`}/>}/>
+     <Route path="/" element={<Blog className={`App ${theme}`}/>}/>
 
      <Route path ='/About'element={<About className={`App ${theme}`}/>}/>
 
