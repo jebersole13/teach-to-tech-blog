@@ -1,7 +1,8 @@
 import './index.css'
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import Navbar from './Components/Navbar'
 import About from './Components/pages/about';
-import Blog from './Components/pages/blog';
+import Blog from './Components/pages/Blog';
 import Learning from './Components/pages/learning';
 import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
@@ -19,23 +20,24 @@ useEffect(()=> {
 },[theme])
   return (
     <div className={`App ${theme}`}>
-      <Navbar />
+      
+      <Router><Navbar />
 <Header theme={theme} setTheme={setTheme}/>
-      <section id='about'>
-<About className={`App ${theme}`}/>
-      </section>
-            <section id='blog'>
-<Blog className={`App ${theme}`}/>
-      </section>
-            <section id='learning'>
-<Learning 
- className={`App ${theme}`}/>
-      </section>
-            <section id='podcast'>
-<Podcast className={`App ${theme}`}/>
-      </section>
+  <Routes>
+     <Route path="/" element={<Blog className={`App ${theme}`}/>}/>
 
+     <Route path ='/About'element={<About className={`App ${theme}`}/>}/>
+
+     
+<Route path ='/Learning' element={<Learning 
+ className={`App ${theme}`}/>}/>
+<Route path = '/Podcast' element ={<Podcast className={`App ${theme}`}/>}     />
+
+
+     
+</Routes>
       <Footer className={`App ${theme}`}/>
+      </Router>
     </div>
   )
 }
