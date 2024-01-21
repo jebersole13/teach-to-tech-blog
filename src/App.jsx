@@ -1,6 +1,6 @@
 import './index.css'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
-
+import Navbar from './Components/Navbar'
 import About from './Components/pages/about';
 import Blog from './Components/pages/blog';
 import Learning from './Components/pages/learning';
@@ -8,6 +8,7 @@ import Podcast from './Components/pages/Podcast';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import { useEffect, useState } from 'react';
+
 const App =()=> {
 
      const current_theme = localStorage.getItem( 'current_theme')
@@ -22,7 +23,7 @@ useEffect(()=> {
     <div className={`App ${theme}`}>
       
       <Router>
-
+<Navbar />
 <Header theme={theme} setTheme={setTheme}/>
 
   <Routes>
