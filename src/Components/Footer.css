@@ -1,5 +1,6 @@
 
 .footer {
+  position: sticky;
   background-color: rgb(175, 130, 71);
   height: auto;
 }
