@@ -1,3 +1,5 @@
+  import Header from 'Components/Header';
+  
   const posts= [
     {
       id:'0', 
@@ -53,6 +55,7 @@ const printPost = posts.map(posts =>
   )
   return (
     <div >
+      <Header/>
       <h1>Blog</h1>
       <ul>{printPost} </ul>
     </div>
