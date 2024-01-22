@@ -34,8 +34,12 @@ color: black;
 }
 
 .Header{
-position: absolute;
+  position: relative;
   top: 0;
+  display: flex;
+  justify-content: space-between;
+  top:0;
+
 }
 .postSection {
   min-height: 100vh;
