@@ -1,4 +1,4 @@
-  import Header from './Components/Header';
+  
   
   const posts= [
     {
@@ -55,7 +55,6 @@ const printPost = posts.map(posts =>
   )
   return (
     <div >
-      <Header/>
       <h1>Blog</h1>
       <ul>{printPost} </ul>
     </div>
