@@ -12,7 +12,7 @@ scroll-behavior: smooth;
 }
 
 .App{
-display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -33,15 +33,15 @@ color: black;
 }
 
 .Header{
-  position: fixed;
+  position: relative;
   top: 0;
   display: flex;
   justify-content: space-between;
-  top:0;
+
 
 }
 .postSection {
-
+min-height: 100vh;
   padding: 10rem 9% 20rem;
 }
 
