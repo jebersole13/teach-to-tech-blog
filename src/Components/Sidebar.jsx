@@ -12,7 +12,7 @@ const Sidebar =({children})=> {
     },
     {
       path:'/about',
-      name: 'about'
+      name: 'About'
     },
         {
       path:'/learning',
