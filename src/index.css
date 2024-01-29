@@ -18,6 +18,7 @@ scroll-behavior: smooth;
 background: #ced8ff;
 color: black;
  transition: 1s;
+ padding: 10rem 9% 20rem;
 }
 
 .App.dark{
@@ -39,14 +40,13 @@ color: black;
 }
 .postSection {
 min-height: 100vh;
-  padding: 10rem 9% 20rem;
 }
 
 .logo {
   width: 300px;
   cursor: pointer;
   margin-left: 100px;
-  position: fixed;
+  position: relative;
 }
 .toggle-icon {
 
@@ -95,11 +95,7 @@ main{
 .sidebar{
   background: #000;
   color: #fff;
-  position: absolute;
-  top:0;bottom:0;
-  left:0;right:0;
-  overflow-y: scroll;
- 
+  height: 1000%;
   width: 200px;
   transition: all 0.5s;
 }
