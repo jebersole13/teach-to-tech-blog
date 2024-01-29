@@ -32,7 +32,9 @@ color: black;
 }
 
 .Header{
-  
+  position: sticky;
+  top: 0;
+  display: flex;
   justify-content: space-between;
 
 
@@ -53,9 +55,9 @@ color: black;
 
     width: 50px;
     cursor: pointer;
-  
-right: 80px;
-  top: 20px;
+
+margin-right: 20rem;
+
   }
 
 
