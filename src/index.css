@@ -62,7 +62,7 @@ right: 80px;
   height: 100%;
   overflow:auto;
   float:left;
-  transition: width .35s;
+  transition: width 1s;
 }
 
 .sidebar {
