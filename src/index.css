@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 
 text-decoration: none;
-
+overflow-x: hidden;
 font-family: sans-serif;
 scroll-behavior: smooth;
 
@@ -88,20 +88,20 @@ margin-right: 20rem;
  */
  .container{
   display:flex;
-
+position: sticky;
+  height: 100dvh;
 }
 main{
-  width:100vh;
   padding: 20px;
 
 }
 .sidebar{
   background: #000;
   color: #fff;
-  height: 100vh;
+
   width: 200px;
   transition: all 1s;
-position: sticky;
+
   top: 0;
 
   
