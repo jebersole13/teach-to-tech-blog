@@ -83,7 +83,7 @@ right: 80px;
  */
  .container{
   display:flex;
-  position: fixed;
+  position: static;
 }
 main{
   width:100vh;
