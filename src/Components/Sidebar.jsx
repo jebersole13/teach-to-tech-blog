@@ -3,7 +3,7 @@ import {FaBars} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
 
 
-const Sidebar =()=> {
+const Sidebar =({children})=> {
     const [isOpen, setIsOpen] = useState(false);
     const sidebarToggle =()=> setIsOpen(!isOpen);
   const menuItems = [
@@ -42,6 +42,7 @@ const Sidebar =()=> {
   ))
 }
 </div>
+<main>{children} </main>
 
  </div>
 
