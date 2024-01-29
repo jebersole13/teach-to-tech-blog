@@ -3,7 +3,7 @@
 *{
 margin: 0;
 padding: 0;
-box-sizing: border-box;
+text-decoration: none;
 font-family: sans-serif;
 scroll-behavior: smooth;
 
@@ -13,9 +13,7 @@ scroll-behavior: smooth;
 
   align-items: center;
   justify-content: center;
-
   min-height: 100vh;
-
 background: #ced8ff;
 color: black;
  transition: 1s;
