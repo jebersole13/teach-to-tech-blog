@@ -57,7 +57,7 @@ right: 80px;
   }
 
 
-/*sidebar css 
+/*sidebar css }*/
 .sidebar {
   height: 100%;
   overflow:hidden;
@@ -77,4 +77,3 @@ right: 80px;
 
 #sidebar.collapsed{
   width: 100%;
-}*/
