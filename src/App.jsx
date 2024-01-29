@@ -23,9 +23,10 @@ useEffect(()=> {
     <div className={`App ${theme}`}>
       
       <Router>
+        <Header theme={theme} setTheme={setTheme}/>
 <Sidebar />
 
-<Header theme={theme} setTheme={setTheme}/>
+
   <Routes>
      <Route path="/" element={<Blog className={`App ${theme}`}/>}/>
 
