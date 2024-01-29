@@ -92,6 +92,7 @@ position: sticky;
   height: 100dvh;
 }
 main{
+  width:100%;
   padding: 20px;
 
 }
