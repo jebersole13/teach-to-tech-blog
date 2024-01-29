@@ -1,8 +1,8 @@
 import{useState } from 'react';
 import {FaBars} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
-// eslint-disable-next-line react/prop-types
-const Sidebar =({children})=> {
+
+const Sidebar =()=> {
     const [isOpen, setIsOpen] = useState(false);
     const sidebarToggle =()=> setIsOpen(!isOpen);
   const menuItems = [
@@ -41,7 +41,7 @@ const Sidebar =({children})=> {
   ))
 }
 </div>
-<main>{children} </main>
+
  </div>
 
   )
