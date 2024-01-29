@@ -1,7 +1,10 @@
 import{useState } from 'react';
 import {FaBars} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
-
+import { ImBlog } from "react-icons/im";
+import { PiUserSquareDuotone } from "react-icons/pi";
+import { MdOutlineCastForEducation } from "react-icons/md";
+import { Mic } from 'lucide-react';
 
 const Sidebar =({children})=> {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,18 +12,23 @@ const Sidebar =({children})=> {
   const menuItems = [
     {
       path:'/',
-      name:"Blog"
+      name:"Blog",
+icon:<ImBlog/>
+
     },
     {
       path:'/about',
-      name: 'About'
+      name: 'About',
+icon: <PiUserSquareDuotone/>
     },
         {
       path:'/learning',
-      name: 'Learning'
+      name: 'Learning',
+  icon: <MdOutlineCastForEducation/>
     },
     {path:'/podcast',
-      name: 'Podcast'
+      name: 'Podcast',
+   icon: <Mic/>
 
     }
     

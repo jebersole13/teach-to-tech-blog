@@ -31,9 +31,9 @@ color: black;
 }
 
 .Header{
-  position: sticky;
-  top: 0;
-  display: flex;
+
+ 
+
   justify-content: space-between;
 
 
@@ -47,7 +47,7 @@ color: black;
 .logo {
   width: 300px;
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 10px;
   position: relative;
 }
 .toggle-icon {
