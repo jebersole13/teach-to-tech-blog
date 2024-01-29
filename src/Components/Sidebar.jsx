@@ -1,11 +1,7 @@
 import{useState } from 'react';
 import {FaBars} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
-const button = document.querySelector('button');
 
-button.addEventListener('click', _ => {
-  document.getElementById('sidebar').classList.toggle('collapsed');
-})
 
 const Sidebar =()=> {
     const [isOpen, setIsOpen] = useState(false);
