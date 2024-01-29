@@ -29,7 +29,7 @@ const Sidebar =()=> {
   return (
  <div className='container'>
 <div style={{width: isOpen ? '200px' : '50px'}} className='sidebar'>
-  <div style={{marginLeft : isOpen ? '50px' : 'opx'}} className='bars'>
+  <div style={{marginLeft : isOpen ? '50px' : '0px'}} className='bars'>
 <FaBars onClick={sidebarToggle}/>
   </div>
 {

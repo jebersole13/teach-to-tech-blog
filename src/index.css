@@ -57,10 +57,10 @@ right: 80px;
   }
 
 
-/*sidebar css */
+/*sidebar css 
 .sidebar {
   height: 100%;
-  overflow:auto;
+  overflow:hidden;
   float:left;
   transition: width 1s;
 }
@@ -77,4 +77,4 @@ right: 80px;
 
 #sidebar.collapsed{
   width: 100%;
-}
+}*/
