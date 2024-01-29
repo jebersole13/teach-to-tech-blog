@@ -38,8 +38,9 @@ color: black;
 
 }
 .postSection{
+  min-height: 100vh;
 
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .logo {
@@ -98,13 +99,15 @@ main{
   color: #fff;
   height: 100vh;
   width: 200px;
-  transition: all 0.5s;
-  position: absolute;
+  transition: all 1s;
+position: sticky;
+  top: 0;
+  z-index: 99
 }
  .bars{
   display: flex;
   font-size: 25px;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 .link{
   display: flex;
