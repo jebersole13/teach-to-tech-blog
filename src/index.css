@@ -83,7 +83,7 @@ right: 80px;
  */
  .container{
   display:flex;
-  position: static;
+
 }
 main{
   width:100vh;
@@ -96,6 +96,7 @@ main{
   height: 100vh;
   width: 200px;
   transition: all 0.5s;
+  position: static;
 }
  .bars{
   display: flex;
