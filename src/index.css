@@ -37,7 +37,10 @@ color: black;
 
 
 }
+.postSection{
 
+  padding: 2rem;
+}
 
 .logo {
   width: 300px;
