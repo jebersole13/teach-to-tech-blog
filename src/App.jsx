@@ -24,7 +24,7 @@ useEffect(()=> {
       
       <Router>
         <Header theme={theme} setTheme={setTheme}/>
-<Sidebar />
+<Sidebar>
 
 
   <Routes>
@@ -40,6 +40,7 @@ useEffect(()=> {
 
      
 </Routes>
+</Sidebar>
       <Footer className={`App ${theme}`}/>
       </Router>
     </div>
