@@ -75,5 +75,9 @@ right: 80px;
   width: 0;
 }
 
-#sidebar.collapsed{
+.sidebar.collapsed{
   width: 100%;
+ 
+
+
+ }
