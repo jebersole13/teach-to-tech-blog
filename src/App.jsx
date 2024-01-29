@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import { useEffect, useState } from 'react';
 
+
 const App =()=> {
 
      const current_theme = localStorage.getItem( 'current_theme')
@@ -26,6 +27,7 @@ useEffect(()=> {
      
 <Sidebar>
    <Header theme={theme} setTheme={setTheme}/>
+ 
 
   <Routes>
      <Route path="/" element={<Blog className={`App ${theme}`}/>}/>

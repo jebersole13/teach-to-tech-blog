@@ -6,6 +6,7 @@ import { PiUserSquareDuotone } from "react-icons/pi";
 import { MdOutlineCastForEducation } from "react-icons/md";
 import { Mic } from 'lucide-react';
 
+
 const Sidebar =({children})=> {
     const [isOpen, setIsOpen] = useState(false);
     const sidebarToggle =()=> setIsOpen(!isOpen);
@@ -49,7 +50,10 @@ icon: <PiUserSquareDuotone/>
 
   ))
 }
+
 </div>
+
+
 <main>{children} </main>
 
  </div>

@@ -11,6 +11,7 @@ const Header = ({theme, setTheme})=> {const toggle_mode =()=>{
   return (
     <div className='logo'>
       <a href="/">  <img src={theme =='light' ? logo_light: logo_dark} alt="lightlo" className='logo'  /></a>
+      
       <img onClick={()=>{toggle_mode()}} src={theme ==='light' ? toggle_light: toggle_dark} alt="" className='toggle-icon' />
     </div>
   )
