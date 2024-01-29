@@ -36,7 +36,7 @@ icon: <PiUserSquareDuotone/>
 
   return (
  <div className='container'>
-<div style={{width: isOpen ? '250px' : '50px'}} className='sidebar'>
+<div style={{width: isOpen ? '300px' : '70px'}} className='sidebar'>
   <div style={{marginLeft : isOpen ? '100px' : '0px'}} className='bars'>
 <FaBars onClick={sidebarToggle}/>
   </div>
