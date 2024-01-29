@@ -89,7 +89,7 @@ right: 80px;
   display:flex;
 }
 main{
-  width: 100%;
+  width:100vh;
   padding: 20px;
 
 }
