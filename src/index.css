@@ -83,9 +83,7 @@ right: 80px;
  }
 
  */
- .container{
-  display:flex;
-}
+
 main{
   width: 100%;
   padding: 20px;
