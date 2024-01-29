@@ -13,8 +13,8 @@ scroll-behavior: smooth;
 
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  min-height: 100vh;
+height: 100%;
+width: 100%;
 background: #ced8ff;
 color: black;
  transition: 1s;
