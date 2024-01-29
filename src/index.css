@@ -3,7 +3,9 @@
 *{
 margin: 0;
 padding: 0;
+
 text-decoration: none;
+
 font-family: sans-serif;
 scroll-behavior: smooth;
 
@@ -13,8 +15,8 @@ scroll-behavior: smooth;
 
   align-items: center;
   justify-content: center;
-  
-  min-height: 100vh;
+
+
 background: #ced8ff;
 color: black;
  transition: 1s;
@@ -30,9 +32,7 @@ color: black;
 }
 
 .Header{
-  position: sticky;
-  top: 0;
-  display: flex;
+  
   justify-content: space-between;
 
 
@@ -53,7 +53,7 @@ color: black;
 
     width: 50px;
     cursor: pointer;
-    position: fixed;
+  
 right: 80px;
   top: 20px;
   }
@@ -102,7 +102,8 @@ main{
   transition: all 1s;
 position: sticky;
   top: 0;
-  z-index: 99
+
+  
 }
  .bars{
   display: flex;
