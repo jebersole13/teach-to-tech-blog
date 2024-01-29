@@ -6,7 +6,7 @@ padding: 0;
 text-decoration: none;
 font-family: sans-serif;
 scroll-behavior: smooth;
-min-height: 100vh;
+
 }
 
 .App{
@@ -14,7 +14,7 @@ min-height: 100vh;
   align-items: center;
   justify-content: center;
   height: 100vh;
-
+  min-height: 100vh;
 background: #ced8ff;
 color: black;
  transition: 1s;
@@ -95,6 +95,10 @@ main{
 .sidebar{
   background: #000;
   color: #fff;
+  position: absolute;
+  top:0;bottom:0;
+  left:0;right:0;
+  overflow-y: scroll;
  
   width: 200px;
   transition: all 0.5s;
