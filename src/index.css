@@ -39,8 +39,8 @@ color: black;
 }
 
 .postSection {
-
-  padding: 3rem;
+min-height: 100vh;
+  
 }
 
 .logo {
