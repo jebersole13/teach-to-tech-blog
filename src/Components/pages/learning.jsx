@@ -2,7 +2,7 @@
 function Learning() {
   return (
     <div >
-      <h1>What are we learning today?</h1>
+      <h1>Lessons learned</h1>
     </div>
   )
 }

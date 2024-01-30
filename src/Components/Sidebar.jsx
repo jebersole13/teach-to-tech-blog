@@ -7,6 +7,7 @@ import { MdOutlineCastForEducation } from "react-icons/md";
 import { Mic } from 'lucide-react';
 
 
+// eslint-disable-next-line react/prop-types
 const Sidebar =({children})=> {
     const [isOpen, setIsOpen] = useState(false);
     const sidebarToggle =()=> setIsOpen(!isOpen);
