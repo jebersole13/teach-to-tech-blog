@@ -64,7 +64,7 @@ margin-right: 20rem;
 
  .container{
   display:flex;
-position: sticky;
+position: fixed;
   height: 100dvh;
 }
 main{
