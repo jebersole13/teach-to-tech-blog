@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 font-weight: 700;
 text-decoration: none;
-overflow-x: hidden;
+overflow: scroll;
 font-family: sans-serif;
 scroll-behavior: smooth;
 
