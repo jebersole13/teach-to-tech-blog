@@ -63,7 +63,7 @@ margin-right: 20rem;
 
  .container{
   display:flex;
-position: sticky;
+position: -webkit-sticky;
   height: 100dvh;
 }
 main{
