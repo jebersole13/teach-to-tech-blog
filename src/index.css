@@ -15,7 +15,7 @@ scroll-behavior: smooth;
 .App{
   align-items: center;
   justify-content: center;
-  overflow-x:visible;
+  overflow-x:hidden;
   overflow-y: scroll;
 background: #d6d9e5;
 color: black;
