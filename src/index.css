@@ -17,7 +17,7 @@ scroll-behavior: smooth;
 height: 100%;
   width: 100%;
 
-
+overflow-x: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
