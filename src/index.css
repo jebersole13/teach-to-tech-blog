@@ -14,9 +14,10 @@ scroll-behavior: smooth;
 }
 
 .App{
+height: 100%;
+  width: 100%;
 
-  align-items: center;
-    justify-content: center;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
