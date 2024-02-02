@@ -10,7 +10,7 @@ font-weight: 700;
 text-decoration: none;
 font-family: sans-serif;
 scroll-behavior: smooth;
-
+overflow: hidden;
 }
 
 .App{
@@ -59,9 +59,9 @@ margin-right: 20rem;
 
  .container{
   display:flex;
-position: sticky;
+position: static;
 
-height: 500%;
+
 }
 main{
   width:100%;
