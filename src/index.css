@@ -10,7 +10,7 @@ font-weight: 700;
 text-decoration: none;
 font-family: sans-serif;
 scroll-behavior: smooth;
-overflow: hidden;
+
 }
 
 .App{
@@ -18,7 +18,7 @@ overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
+overflow: hidden;
 background: #d6d9e5;
 color: black;
  transition: 1s;
@@ -60,7 +60,7 @@ margin-right: 20rem;
  .container{
   display:flex;
 position: static;
-
+min-height: 100vh;
 
 }
 main{
