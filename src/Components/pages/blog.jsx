@@ -3,58 +3,9 @@
   const posts= [
     {
       id:'0', 
-      title:'Hello ',
-     date: 'first',
-      content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ex laudantium exercitationem assumenda repellendus sunt soluta, eligendi ipsam possimus blanditiis reiciendis reprehenderit nihil consequatur odio aliquam explicabo asperiores. Molestiae, fuga! '
-
-
-    },
-     {
-      id:'1', 
-      title:'Seven',
-      date: 'nothing',
-      content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic delectus veritatis quis quae cumque excepturi! Maxime eveniet sit explicabo! Sequi eius sunt nisi maiores non blanditiis modi ea inventore voluptatum? '
-
-      
-
-
-    }, {
-      id:'2', 
-      title:'fdfsfsf',
-      date: '',
-      content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam quo molestiae nemo placeat tempora soluta magnam cum nobis consectetur! Ut sit tempora sed cum a dolore enim laudantium obcaecati?'
-
-    }
-    ,
-     {
-      id:'3', 
-      title:'sfsfaf',
-      date: 'sfsf',
-      content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos tenetur aspernatur. Necessitatibus nisi rerum numquam. Est aspernatur ducimus quia esse quasi vero delectus minima doloribus! Neque temporibus placeat illo!'
-
-
-    },
-      {
-      id:'4', 
-      title:'sfsfaf',
-      date: 'sfsf',
-      content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos tenetur aspernatur. Necessitatibus nisi rerum numquam. Est aspernatur ducimus quia esse quasi vero delectus minima doloribus! Neque temporibus placeat illo!'
-
-
-    },
-  {
-      id:'3', 
-      title:'sfsfaf',
-      date: 'sfsf',
-      content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos tenetur aspernatur. Necessitatibus nisi rerum numquam. Est aspernatur ducimus quia esse quasi vero delectus minima doloribus! Neque temporibus placeat illo!'
-
-
-    },
-      {
-      id:'3', 
-      title:'sfsfaf',
-      date: 'sfsf',
-      content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos tenetur aspernatur. Necessitatibus nisi rerum numquam. Est aspernatur ducimus quia esse quasi vero delectus minima doloribus! Neque temporibus placeat illo!'
+      title:'From one language to another ',
+     date: '2024-2-7',
+      content:' Teaching languages is fun. It is also exhausting. It is also, generally, underpaid. I can say that with full confidence, as I have been struggling to make ends meet as a language teacher for the last ten year. Additionally, language teachers tend to be undervalued. '
 
 
     }
