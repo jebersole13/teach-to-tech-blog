@@ -5,7 +5,7 @@
       id:'0', 
       title:'From one language to another ',
      date: '2024-2-7',
-      content:' Teaching languages is fun. It is also exhausting. It is also, generally, underpaid. I can say that with full confidence, as I have been struggling to make ends meet as a language teacher for the last ten year. Additionally, language teachers tend to be undervalued. '
+      content:' Teaching languages is fun. It is also exhausting. It is also, generally, underpaid. <br> I can say that with full confidence, as I have been struggling to make ends meet as a language teacher for the last ten year. Additionally, language teachers tend to be undervalued. '
 
 
     }
