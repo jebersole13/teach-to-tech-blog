@@ -22,7 +22,7 @@ overflow-x: auto;
   display: flex;
   flex-direction: column;
 
-background: #d6d9e5;
+background: #e9edfa;
 color: black;
  transition: 1s;
 }
@@ -30,8 +30,8 @@ color: black;
 .App.dark{
 
      
-      color: aliceblue;
-      background: rgb(11, 11, 109);
+      color: rgb(245, 249, 252);
+      background: rgb(9, 9, 88);
       transition: 1s;
 
 }
