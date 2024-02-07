@@ -1,5 +1,4 @@
 
-
 *{
 margin: 0;
 padding: 0;
@@ -10,18 +9,15 @@ font-weight: 700;
 text-decoration: none;
 font-family: sans-serif;
 scroll-behavior: smooth;
-
 }
 
 .App{
 height: 100%;
   width: 100%;
-
 overflow-x: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
 background: #f6f8ff;
 color: black;
  transition: 1s;
@@ -108,5 +104,5 @@ main{
 }
 
 p{
-  text-indent: 40px;
+  text-indent: 25px;
 }
