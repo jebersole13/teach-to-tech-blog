@@ -19,7 +19,7 @@ const printPost = posts.map(posts =>
   <li key={posts.id}>
 <div className="postSection">
 <title>{posts.title}</title>
-<img src="{projects.image}" alt="image" />
+<img src={posts.image} alt="image" />
 <h5>{posts.date} </h5>
 <p>{posts.content} </p>
 </div>
