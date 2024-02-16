@@ -115,7 +115,7 @@ ul{
 .footer {
   position:relative;
     margin-top: auto;
-    background-color: rgb(235, 200, 156);
+    background-color: rgba(235, 200, 156, 0.356);
     color: #000;
     object-fit: contain;
     width: 100%;
@@ -126,7 +126,7 @@ ul{
   }
   
   .dark .footer{
-    background-color: rgb(80, 26, 26);
-    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(255, 255, 255);
   }
   
