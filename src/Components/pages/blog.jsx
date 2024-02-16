@@ -27,7 +27,7 @@ function Blog() {
 const printPost = posts.map(posts => 
   <li key={posts.id}>
 <div className="postSection">
-<title>{posts.title}</title>
+<h1>{posts.title}</h1>
 <img src={posts.image} alt="image" />
 <h4>{posts.date} </h4>
 <p>{posts.content} </p>
