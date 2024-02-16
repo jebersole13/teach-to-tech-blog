@@ -39,7 +39,7 @@ const printPost = posts.map(posts =>
   )
   return (
     <div >
-      <h1>Blog</h1>
+      <h1 className='headline'>Blog</h1>
       <ul>{printPost} </ul>
     </div>
   )

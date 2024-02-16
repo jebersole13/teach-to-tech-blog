@@ -2,7 +2,7 @@
 function Podcast() {
   return (
     <div>
-      <h1>BUY THE POD</h1>
+      <h1 className='headline'>TeachTeachTalk</h1>
       <p> </p>
     </div>
   )
