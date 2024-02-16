@@ -109,6 +109,10 @@ p{
 
 ul{
   text-indent: 35px;
+  
+    list-style-type: none;
+
+  
 }
 
 
