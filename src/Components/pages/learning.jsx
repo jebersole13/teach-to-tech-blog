@@ -13,7 +13,17 @@ function Learning() {
       Parts of Facebook are written in PHP. <br />
       This thing some many people derided was used on one of the most popular websites on the internet.  <br />
       Then it happened. The thing that sent me down a path to actually learning this supposedly outdated, bad programming language, that will supposedly waste your time and make you poor. <br />
-      A friend of mine had asked for my help building his website. I mentioned several options, none of which he liked, and then showed me that he had already 
+      A friend of mine had asked for my help building his website. I mentioned several options, none of which he liked, and then showed me that he had already created a basic Wordpress site.  
+      <br />
+      Low and behold, Wordpress is poweredby that oh so dreaded language. 
+
+      <br />
+
+      And it is basically essential to doing any development.
+
+      <br />
+
+      After going back and forth trying to 
 
 
 

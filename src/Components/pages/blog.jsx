@@ -20,7 +20,7 @@ const printPost = posts.map(posts =>
 <div className="postSection">
 <title>{posts.title}</title>
 <img src={posts.image} alt="image" />
-<h5>{posts.date} </h5>
+<h4>{posts.date} </h4>
 <p>{posts.content} </p>
 </div>
 
