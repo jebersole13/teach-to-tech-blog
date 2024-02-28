@@ -5,7 +5,7 @@ function Blog() {
  <div className='blog-main'>
 <div>
 
-<h1>On not waiting</h1>
+<h1 className='headline'>On not waiting</h1>
 <h3>Build now, fix as you go</h3>
 <img src="" alt="" />
 <h5>2024-2-29</h5>
