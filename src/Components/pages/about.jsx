@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import { ExternalLink } from 'lucide-react';
 function About() {
   return (
     <div >
@@ -10,8 +11,8 @@ function About() {
       <br />
       <br />
       <br />
+      <ExternalLink><Link to='https://portfolio-site-bay-chi.vercel.app/'>JCE Productions</Link></ExternalLink>
 
-<Link to='https://portfolio-site-bay-chi.vercel.app/'>JCE Productions</Link>
       <p></p>
     </div>
   )
