@@ -18,7 +18,7 @@ overflow-x: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-background: #d6d6d8;
+background: #f8f8ff;
 color: black;
  transition: 1s;
 }
