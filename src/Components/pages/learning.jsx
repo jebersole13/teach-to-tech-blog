@@ -3,11 +3,11 @@ function Learning() {
   return (
     <div >
          <h1 >Learning</h1>
-{/* */  }    
-<div className='lesson2'>
+{/*<div className='lesson2'>
 <h1 className='headline'>JavaScript, React, and the back and forth</h1>
 
-</div>
+</div> */  }    
+
  
 
   <div className='lesson1'>
