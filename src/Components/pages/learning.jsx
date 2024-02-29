@@ -12,7 +12,7 @@ function Learning() {
 
   <div className='lesson1'>
    
-      <h1 className='headline'>PHP isn't that bad.</h1 >
+      <h1 className='headline'>PHP: it isn't the elephant you think it is.</h1 >
       <img src="php.jpg" alt="phpimg" />
       <p  >  When I was first learning web development, I tried a few false starts that left me frustrated and with nothing to show for my time. <br />
       After months of chasing my tail, I sat down and started with HTML and worked my way through your standard HTML to CSS to JavaScript sort of course. <br />
