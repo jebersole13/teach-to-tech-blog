@@ -2,17 +2,17 @@
 function Learning() {
   return (
     <div >
-         <h1 className='headline'>Lessons learned</h1>
+         <h1 >Learning</h1>
 {/* */  }    
 <div className='lesson2'>
+<h1 className='headline'>JavaScript, React, and the back and forth</h1>
 
-<h3>JavaScript, React, and the back and forth</h3>
 </div>
  
 
   <div className='lesson1'>
    
-      <h3>PHP isn't that bad.</h3>
+      <h1 className='headline'>PHP isn't that bad.</h1 >
       <img src="php.jpg" alt="phpimg" />
       <p  >  When I was first learning web development, I tried a few false starts that left me frustrated and with nothing to show for my time. <br />
       After months of chasing my tail, I sat down and started with HTML and worked my way through your standard HTML to CSS to JavaScript sort of course. <br />
