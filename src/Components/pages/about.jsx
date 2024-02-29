@@ -4,7 +4,7 @@ function About() {
   return (
     <div >
       <h1 className='headline'>About</h1>
-      <img src="snowpic.jpg" alt="chewbubblepeg" />
+  
       <p> Jon Ebersole is a web developer and English teahcer. As the title of the blog implies, he is still learning a lot about web development, despite working in the industry, like everyone else. Unlike everyone else, he has been a full time language educator for the last ten years. </p>
      <p>Take a look at the links below for more on him. </p> 
 

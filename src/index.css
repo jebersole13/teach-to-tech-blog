@@ -28,13 +28,12 @@ color: black;
      
       color: rgb(245, 251, 252);
       background: rgb(10, 10, 44);
-      transition: 1s;
+      transition: .9s;
 
 }
 
 
-.postSection{
-
+.blog-main{
 
   padding: 5rem;
 }
