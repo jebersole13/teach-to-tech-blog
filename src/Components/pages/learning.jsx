@@ -1,7 +1,7 @@
 
 function Learning() {
   return (
-    <div >
+    <div className='blog'>
          <h1 >Learning</h1>
 {/*<div className='lesson2'>
 <h1 className='headline'>JavaScript, React, and the back and forth</h1>

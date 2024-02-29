@@ -2,7 +2,7 @@
 function Blog() {
 
   return (
- <div className='blog-main'>
+ <div className='blog'>
 <div>
 
 <h1 className='headline'>On not waiting</h1>
