@@ -18,7 +18,7 @@ overflow-x: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-background: #f8f8ff;
+background: #dfdfdf;
 color: black;
  transition: 1s;
 }
@@ -67,7 +67,7 @@ main{
 
 }
 .sidebar{
-  background: #000;
+  background: #000000;
   color: #fff;
 
   width: 200px;

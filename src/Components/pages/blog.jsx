@@ -3,6 +3,8 @@ function Blog() {
 
   return (
  <div className='blog'>
+
+  {/*
 <div>
 
 <h1 className='headline'>On not waiting</h1>
@@ -13,7 +15,7 @@ function Blog() {
 
 </div>
 
-
+  */}
 <div className='blog1'>
 <h1 className='headline'>From one language to another</h1>
       <h3>ABCs to href and divs.</h3>
